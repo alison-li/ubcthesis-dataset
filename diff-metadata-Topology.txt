@@ -1,0 +1,87 @@
+commit 1844bf2b2f4cdf5a8209d7ceccb6701fc7dcf768 1501285594 ----sp 
+KAFKA-5670: (KIP-120) Add Topology and deprecate TopologyBuilder                                     
+[DOCUMENTATION: 416, ANNOTATION: 0, IMPORT: 18, NEWLINE: 31, OTHER: 175]
+
+commit da2205578be3228ce40eb5e59f6bbcb0c8da0aba 1501540139 ----sp 
+KAFKA-5671: Add StreamsBuilder and Deprecate KStreamBuilder                                          
+[DOCUMENTATION: 6, ANNOTATION: 0, IMPORT: 0, NEWLINE: 0, OTHER: 0]
+
+commit 9cbb9f0939c88868bf33ae340c5fa756ee2965e8 1504773586 ----sp 
+KAFKA-5650; add StateStoreBuilder interface and implementations                                      
+[DOCUMENTATION: 4, ANNOTATION: 0, IMPORT: 3, NEWLINE: 0, OTHER: 6]
+
+commit f2b74aa1c36bf2882006c14f7cbd56b493f39d26 1505746424 ----sp 
+KAFKA-5873; add materialized overloads to StreamsBuilder                                             
+[DOCUMENTATION: 0, ANNOTATION: 0, IMPORT: 0, NEWLINE: 0, OTHER: 1]
+
+commit 06738b41bc2447211d901d09aade7aadd0df6254 1507146127 ----sp 
+MINOR: JavaDoc improvements for new state store API                                                  
+[DOCUMENTATION: 3, ANNOTATION: 0, IMPORT: 0, NEWLINE: 0, OTHER: 0]
+
+commit 713a67fddaec3fa9cd7cce53dd6fef5ab6e0cdab 1507153327 ----sp 
+MINOR: add suppress warnings annotations in Streams API                                              
+[DOCUMENTATION: 0, ANNOTATION: 2, IMPORT: 1, NEWLINE: 1, OTHER: 1]
+
+commit a1352f8c5a96c8e861c17c8105557428a47f4334 1518124916 ----sp 
+MINOR: Add missing generics and surpress warning annotations (#4518)                                 
+[DOCUMENTATION: 0, ANNOTATION: 0, IMPORT: 0, NEWLINE: 0, OTHER: 9]
+
+commit f33e9a346e22e29bb66e0ea0f3442903d136ca67 1527706493 ----sp 
+KAFKA-4936: Add dynamic routing in Streams (#5018)                                                   
+[DOCUMENTATION: 100, ANNOTATION: 0, IMPORT: 1, NEWLINE: 4, OTHER: 30]
+
+commit d98ec33364d4ddb6ee53e0cd6001857207ba2089 1528758504 ----sp 
+KAFKA-7021: Reuse source based on config (#5163)                                                     
+[DOCUMENTATION: 0, ANNOTATION: 0, IMPORT: 0, NEWLINE: 1, OTHER: 0]
+
+commit c968267bf1362a91eca8bb22566da76d6c9aeb26 1535056775 ----sp 
+MINOR: Return correct instance of SessionWindowSerde (#5546)                                         
+[DOCUMENTATION: 19, ANNOTATION: 0, IMPORT: 0, NEWLINE: 0, OTHER: 0]
+
+commit 35a0de32ee3823dfb548a1cd5d5faf4f7c99e4e0 1550768713 ----sp 
+KAFKA-6161 Add default implementation to close() and configure() for Serdes (#5348)                  
+[DOCUMENTATION: 0, ANNOTATION: 3, IMPORT: 0, NEWLINE: 1, OTHER: 0]
+
+commit 21cfd0b453c878780236f623249b3b5ddec52e6e 1584653355 ----sp 
+MINOR: Fix generic types in StreamsBuilder and Topology (#8273)                                      
+[DOCUMENTATION: 0, ANNOTATION: 3, IMPORT: 0, NEWLINE: 0, OTHER: 48]
+
+commit 075bbcfec40a46c58ba38b58d8a9235e2eb1395d 1590602234 ----sp 
+KAFKA-7523: Add ConnectedStoreProvider to Processor API (#6824)                                      
+[DOCUMENTATION: 2, ANNOTATION: 0, IMPORT: 2, NEWLINE: 0, OTHER: 6]
+
+commit 88d4bc4641064d21a481ba3b8562a4c97703d64d 1597950376 ----sp 
+KAFKA-10379: Implement the KIP-478 StreamBuilder#addGlobalStore() (#9148)                            
+[DOCUMENTATION: 0, ANNOTATION: 0, IMPORT: 1, NEWLINE: 0, OTHER: 2]
+
+commit 09d1498e3065eccc26a2d396ea13e7c8b553b974 1599673041 ----sp 
+KAFKA-10436: Implement KIP-478 Topology changes (#9221)                                              
+[DOCUMENTATION: 67, ANNOTATION: 2, IMPORT: 2, NEWLINE: 4, OTHER: 58]
+
+commit 659b05f78a500aa5bf9cfb482a1df0fce8a46101 1603139367 ----sp 
+KAFKA-10605: Deprecate old PAPI registration methods (#9448)                                         
+[DOCUMENTATION: 3, ANNOTATION: 3, IMPORT: 0, NEWLINE: 0, OTHER: 0]
+
+commit 50a5671135df80209ea3c781acf9d77456b6b88c 1603236649 ----sp 
+MINOR: Clean-up streams javadoc warnings (#9461)                                                     
+[DOCUMENTATION: 3, ANNOTATION: 0, IMPORT: 0, NEWLINE: 0, OTHER: 0]
+
+commit b3e77dfad93b9e4d2798ecf84e777c99905d380f 1604453415 ----sp 
+KAFKA-10036: Improve handling and documentation of Suppliers (#9000)                                 
+[DOCUMENTATION: 15, ANNOTATION: 0, IMPORT: 0, NEWLINE: 0, OTHER: 0]
+
+commit 16b2ce7da72e60d88b6ca8a3eff853a28a1458f9 1619847960 ----sp 
+KAFKA-12648: basic skeleton API for NamedTopology (#10615)                                           
+[DOCUMENTATION: 0, ANNOTATION: 0, IMPORT: 0, NEWLINE: 0, OTHER: 1]
+
+commit c3475081c5e8228e9bd3a45022a93d61e542f72e 1624371431 ----sp 
+KAFKA-10546: Deprecate old PAPI (#10869)                                                             
+[DOCUMENTATION: 1, ANNOTATION: 0, IMPORT: 2, NEWLINE: 0, OTHER: 0]
+
+commit 908a6d2ad7807642b917231769c8d3b6a0c1ad16 1636572479 ----sp 
+KAFKA-12648: introduce TopologyConfig and TaskConfig for topology-level overrides (#11272)           
+[DOCUMENTATION: 0, ANNOTATION: 0, IMPORT: 0, NEWLINE: 2, OTHER: 7]
+
+commit fbe7fb941173c0907792a8b48e8e9122aabecbd8 1647483582 ----sp 
+KAFKA-9847: add config to set default store type (KIP-591) (#11705)                                  
+[DOCUMENTATION: 0, ANNOTATION: 0, IMPORT: 0, NEWLINE: 1, OTHER: 3]
